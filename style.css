@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box
+}
+.myskill{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 80%;
+    background-color: #d61608;
+}
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+.bootstrap {
+    width: 60%;
+    background-color: #02407a;
+}
+.react{
+    width: 80%;
+    background-color: #2196F3;
+}
+.node{
+    width: 80%;
+    background-color: #197003;
+}
+
+@media only screen and (max-width: 600px) {
+    .myskill{
+        width: 100%;
+        
+    }
+  }
